@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-secure-names",
+  "version": "1.0.0",
+  "description": "Custom ESLint plugin for variable names",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./secure-names.test.js"
+  },
+  "keywords": [],
+  "author": "Vera Lobacheva",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.0.0"
+  }
+}
