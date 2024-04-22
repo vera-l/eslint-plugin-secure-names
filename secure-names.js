@@ -4,7 +4,7 @@ module.exports = {
   meta: {
     type: "problem",
     docs: {
-      description: "Disallow using insecure variable names",
+      description: "Небезопасные имена паременных не допускаются",
     },
     schema: [
       {
@@ -17,7 +17,7 @@ module.exports = {
     ],
     messages: {
       insecureName:
-        'A variable "{{ variable }}" name should be secure and contain at least {{ minLength }} letters (uppercase and lowercase), digits and special symbols ("$" or "_").',
+        'Имя переменной "{{ variable }}" должно быть безопасным и содержать как минимум {{ minLength }} букв (строчных и прописных), цифр и специальных символов ("$" или "_").',
     },
   },
   create(context) {
